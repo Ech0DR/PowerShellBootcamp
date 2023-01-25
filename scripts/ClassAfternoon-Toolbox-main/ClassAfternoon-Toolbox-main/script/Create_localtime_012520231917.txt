@@ -1,0 +1,2654 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230125191736
+Username: G07PHXNWES06402\DelRosarioJe
+RunAs User: G07PHXNWES06402\DelRosarioJe
+Configuration Name: 
+Machine: G07PHXNWES06402 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\DelRosarioJe.G07PHXNWES06402\.vscode\extensions\ms-vscode.powershell-2023.1.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.1.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\DelRosarioJe.G07PHXNWES06402\.vscode\extensions\ms-vscode.powershell-2023.1.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.1.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\DelRosarioJe.G07PHXNWES06402\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1674644926-5670b025-6d72-4137-aafa-8ad6914be8141674644924866\EditorServices.log' -SessionDetailsPath 'c:\Users\DelRosarioJe.G07PHXNWES06402\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-12844-386802.json' -FeatureFlags @() 
+Process ID: 21940
+PSVersion: 5.1.19041.2364
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.2364
+BuildVersion: 10.0.19041.2364
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+
+------------------BEGIN-------------------------
+19:17[Log]: Starting init
+19:17[Log]: Transforming data
+19:17[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name: Westmarch_01 
+
+ DisplayName: GRS Westmarch_01 
+
+ PrimarySmtpAddress: GRS_westmarch_01@solutionautdev.onmicrosoft.com 
+
+ Description: 
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:17:36)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida. 
+
+ Members: res@solutionautdev.onmicrosoft.com manager@solutionautdev.onmicrosoft.com nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Output"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Output                                       3.1.0.0    Micr...
+
+
+PS>CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="Name"; value="Write-Output"
+>> ParameterBinding(Get-Help): name="Online"; value="False"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+
+NAME
+    Write-Output
+
+SYNTAX
+    Write-Output [-InputObject] <psobject[]> [-NoEnumerate]  [<CommonParameters>]
+
+
+ALIASES
+    write
+    echo
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is
+    displaying only partial help.
+        -- To download and install Help files for the module that includes this
+    cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help
+    Write-Output -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113427.
+
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Micr...
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Micr...
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Micr...
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Micr...
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Micr...
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      Powe...
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Micr...
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Micr...
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Micr...
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Micr...
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Micr...
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Micr...
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Micr...
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      Powe...
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Micr...
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Micr...
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:19[Log]: Starting init
+19:19[Log]: Transforming data
+19:19[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name: Westmarch_01 
+
+ DisplayName: GRS Westmarch_01 
+
+ PrimarySmtpAddress: GRS_westmarch_01@solutionautdev.onmicrosoft.com 
+
+ Description: 
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:19:47)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida. 
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main1\ClassAfternoon-Toolbox-main\script\create.ps1'
+. : File C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main1\Clas
+sAfternoon-Toolbox-main\script\create.ps1 cannot be loaded. The file C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\
+PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main1\ClassAfternoon-Toolbox-main\script\create.ps1 is not digitally 
+signed. You cannot run this script on the current system. For more information about running scripts and setting 
+execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:3
++ . 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootc ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+. : File C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\script
+s\ClassAfternoon-Toolbox-main1\ClassAfternoon-Toolbox-main\script\create.ps1 cannot
+be loaded. The file C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBoot
+camp\scripts\ClassAfternoon-Toolbox-main1\ClassAfternoon-Toolbox-main\script\create.p
+s1 is not digitally signed. You cannot run this script on the current system. For
+more information about running scripts and setting execution policy, see
+about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:3
++ . 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootc ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main1\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main1\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:20[Log]: Starting init
+19:20[Log]: Transforming data
+19:20[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:20:56)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main1\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main1\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:21[Log]: Starting init
+19:21[Log]: Transforming data
+19:21[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:21:06)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main1\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:21[Log]: Starting init
+19:21[Log]: Transforming data
+19:21[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name: Westmarch_01 
+
+ DisplayName: GRS Westmarch_01 
+
+ PrimarySmtpAddress: GRS_westmarch_01@solutionautdev.onmicrosoft.com 
+
+ Description: 
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:21:43)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida. 
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main1\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:22[Log]: Starting init
+19:22[Log]: Transforming data
+19:22[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:22:24)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main1\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Micr...
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Micr...
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Micr...
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Micr...
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Micr...
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      Powe...
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Micr...
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Micr...
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:24[Log]: Starting init
+19:24[Log]: Transforming data
+19:24[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name: Westmarch_01 
+
+ 
+
+ DisplayName: GRS Westmarch_01 
+
+ 
+
+ PrimarySmtpAddress: GRS_westmarch_01@solutionautdev.onmicrosoft.com 
+
+ 
+
+ Description: 
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:24:47)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida. 
+
+ 
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Micr...
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Micr...
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Micr...
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Micr...
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Micr...
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      Powe...
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Micr...
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Micr...
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>0
+0
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+
+19:27[Log]: Starting init
+19:27[Log]: Transforming data
+19:27[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name: Westmarch_01 
+ 
+
+ DisplayName: GRS Westmarch_01 
+ 
+
+ PrimarySmtpAddress: GRS_westmarch_01@solutionautdev.onmicrosoft.com 
+ 
+
+ Description: 
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:27:59)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida. 
+ 
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main1\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:28[Log]: Starting init
+19:28[Log]: Transforming data
+19:28[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:28:09)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main1\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:28[Log]: Starting init
+19:28[Log]: Transforming data
+19:28[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name: Westmarch_01 
+ 
+
+ DisplayName: GRS Westmarch_01 
+ 
+
+ PrimarySmtpAddress: GRS_westmarch_01@solutionautdev.onmicrosoft.com 
+ 
+
+ Description: 
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:28:43)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida. 
+ 
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main1\ClassAfternoon-Toolbox-main\script\create.ps1'
+PS>TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main1\ClassAfter
+noon-Toolbox-main\script\create.ps1:4 char:1
++ Start-Transcript -Path "$RootPath\Create_localtime_$(Get-Date -Format ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\Clas
+sAfternoon-Toolbox-main1\ClassAfternoon-Toolbox-main\script\create.ps1:4 char:1
++ Start-Transcript -Path "$RootPath\Create_localtime_$(Get-Date -Format ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOpe
+   rationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands
+   .StartTranscriptCommand
+
+
+
+------------------BEGIN-------------------------
+19:28[Log]: Starting init
+19:28[Log]: Transforming data
+19:28[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:28:55)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main1\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:29[Log]: Starting init
+19:29[Log]: Transforming data
+19:29[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name: Westmarch_01 
+ 
+
+ DisplayName: GRS Westmarch_01 
+ 
+
+ PrimarySmtpAddress: GRS_westmarch_01@solutionautdev.onmicrosoft.com 
+ 
+
+ Description: 
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:29:37)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida. 
+ 
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:30[Log]: Starting init
+19:30[Log]: Transforming data
+19:30[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name: Westmarch_01 
+ 
+
+ DisplayName: GRS Westmarch_01 
+ 
+
+ PrimarySmtpAddress: GRS_westmarch_01@solutionautdev.onmicrosoft.com 
+ 
+
+ Description: 
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:30:38)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida. 
+ 
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+PS>TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAftern
+oon-Toolbox-main\script\create.ps1:4 char:1
++ Start-Transcript -Path "$RootPath\Create_localtime_$(Get-Date -Format ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\Clas
+sAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1:4 char:1
++ Start-Transcript -Path "$RootPath\Create_localtime_$(Get-Date -Format ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOpe
+   rationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands
+   .StartTranscriptCommand
+
+
+
+------------------BEGIN-------------------------
+19:30[Log]: Starting init
+19:30[Log]: Transforming data
+19:30[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name: Westmarch_01 
+ 
+
+ DisplayName: GRS Westmarch_01 
+ 
+
+ PrimarySmtpAddress: GRS_westmarch_01@solutionautdev.onmicrosoft.com 
+ 
+
+ Description: 
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:30:56)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida. 
+ 
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:31[Log]: Starting init
+19:31[Log]: Transforming data
+19:31[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name: Westmarch_01 
+ 
+
+ DisplayName: GRS Westmarch_01 
+ 
+
+ PrimarySmtpAddress: GRS_westmarch_01@solutionautdev.onmicrosoft.com 
+ 
+
+ Description: 
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:31:11)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida. 
+ 
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Import-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Import-Csv                                         3.1.0.0    Micr...
+
+
+PS>CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="Name"; value="Import-Csv"
+>> ParameterBinding(Get-Help): name="Online"; value="False"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+
+NAME
+    Import-Csv
+
+SYNTAX
+    Import-Csv [[-Path] <string[]>] [[-Delimiter] <char>] [-LiteralPath <string[]>]
+    [-Header <string[]>] [-Encoding {Unicode | UTF7 | UTF8 | ASCII | UTF32 |
+    BigEndianUnicode | Default | OEM}]  [<CommonParameters>]
+
+    Import-Csv [[-Path] <string[]>] -UseCulture [-LiteralPath <string[]>] [-Header
+    <string[]>] [-Encoding {Unicode | UTF7 | UTF8 | ASCII | UTF32 | BigEndianUnicode
+    | Default | OEM}]  [<CommonParameters>]
+
+
+ALIASES
+    ipcsv
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is
+    displaying only partial help.
+        -- To download and install Help files for the module that includes this
+    cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Import-Csv
+    -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113341.
+
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Micr...
+
+
+PS>CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+>> ParameterBinding(Get-Help): name="Online"; value="False"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail
+    <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force]
+    [-Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait]
+    [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 |
+    UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]
+    [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>]
+    [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>]
+    [-Force] [-Credential <pscredential>] [-UseTransaction] [-Delimiter <string>]
+    [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode
+    | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream
+    <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is
+    displaying only partial help.
+        -- To download and install Help files for the module that includes this
+    cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help
+    Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS>0
+0
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main1\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:38[Log]: Starting init
+19:38[Log]: Transforming data
+19:38[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:38:04)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main1\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Micr...
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Micr...
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Micr...
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Micr...
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Micr...
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      Powe...
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Micr...
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Micr...
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Micr...
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Micr...
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Micr...
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Micr...
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Micr...
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      Powe...
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Micr...
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Micr...
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Micr...
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Micr...
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Micr...
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Micr...
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Micr...
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      Powe...
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Micr...
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Micr...
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Micr...
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Micr...
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Micr...
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Micr...
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Micr...
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      Powe...
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Micr...
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Micr...
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+19:57[Log]: Starting init
+19:57[Log]: Transforming data
+19:57[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 19:57:27)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+20:27[Log]: Starting init
+20:27[Log]: Transforming data
+20:27[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 20:27:35)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+At C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAftern
+oon-Toolbox-main\script\create.ps1:25 char:88
++ ... yan; $AssembledObj.Name; "`n`n DisplayName:" -foregroundcolor Cyan; $ ...
++                                                  ~~~~~~~~~~~~~~~~
+Unexpected token '-foregroundcolor' in expression or statement.
+
+At C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAftern
+oon-Toolbox-main\script\create.ps1:25 char:105
++ ... $AssembledObj.Name; "`n`n DisplayName:" -foregroundcolor Cyan; $Assem ...
++                                                              ~~~~
+Unexpected token 'Cyan' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParseException
+    + FullyQualifiedErrorId : UnexpectedToken
+At C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\Clas
+sAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1:25 char:88
++ ... yan; $AssembledObj.Name; "`n`n DisplayName:" -foregroundcolor Cyan; $ ...
++                                                  ~~~~~~~~~~~~~~~~
+Unexpected token '-foregroundcolor' in expression or statement.
+
+At C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\Clas
+sAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1:25 char:105
++ ... $AssembledObj.Name; "`n`n DisplayName:" -foregroundcolor Cyan; $Assem ...
++                                                              ~~~~
+Unexpected token 'Cyan' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParseException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>0
+0
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Select-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Select-Object                                      3.1.0.0    Micr...
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="select"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           select -> Select-Object
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="select"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           select -> Select-Object
+
+
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+20:32[Log]: Starting init
+20:32[Log]: Transforming data
+20:32[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 20:32:44)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>0
+0
+PS>0
+0
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="select"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           select -> Select-Object
+
+
+PS>0
+0
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+20:33[Log]: Starting init
+20:33[Log]: Transforming data
+20:33[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 20:33:34)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+PS>TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAftern
+oon-Toolbox-main\script\create.ps1:4 char:1
++ Start-Transcript -Path "$RootPath\Create_localtime_$(Get-Date -Format ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\Clas
+sAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1:4 char:1
++ Start-Transcript -Path "$RootPath\Create_localtime_$(Get-Date -Format ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOpe
+   rationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands
+   .StartTranscriptCommand
+
+
+
+------------------BEGIN-------------------------
+20:33[Log]: Starting init
+20:33[Log]: Transforming data
+20:33[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 20:33:48)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+20:33[Log]: Starting init
+20:33[Log]: Transforming data
+20:33[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 20:33:59)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>0
+0
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS>CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>. 'c:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main\script\create.ps1'
+
+
+------------------BEGIN-------------------------
+20:38[Log]: Starting init
+20:38[Log]: Transforming data
+20:38[Log]: Assembling output
+
+------------------OUTPUT-------------------------
+
+
+ Name:
+Westmarch_01
+
+
+ DisplayName:
+GRS Westmarch_01
+
+
+ PrimarySmtpAddress:
+GRS_westmarch_01@solutionautdev.onmicrosoft.com
+
+
+ Description:
+
+ Created at: G07PHXNWES06402
+ Created by: DelRosarioJe
+ Created on: (01/25/2023 20:38:24)
+
+=========
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a molestie enim. Nullam urna nisi, porta ut sem scelerisque, porta euismod massa. Donec quis orci non ante laoreet accumsan. Duis in nisl sodales, posuere nunc luctus, pretium quam. Donec ultricies, massa sit amet cursus congue, nisi turpis luctus enim, in sodales justo mauris vitae diam. Vestibulum non dolor ut metus iaculis vulputate pretium id erat. Maecenas sed libero felis. Cras nec tristique purus, id bibendum massa. Maecenas porta justo at felis molestie, vitae convallis leo tempor. Praesent rhoncus diam ut aliquam gravida.
+
+
+ Members:
+res@solutionautdev.onmicrosoft.com
+manager@solutionautdev.onmicrosoft.com
+nopower@solutionautdev.onmicrosoft.com
+]633;E;. 'c:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-main\x5cscript\x5ccreate.ps1']633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cDelRosarioJe\x5cDocuments\x5cPowerShellBootcamp\x5cPowerShellBootcamp\x5cscripts\x5cClassAfternoon-Toolbox-main\x5cClassAfternoon-Toolbox-mainPS C:\Users\DelRosarioJe\Documents\PowerShellBootcamp\PowerShellBootcamp\scripts\ClassAfternoon-Toolbox-main\ClassAfternoon-Toolbox-main> ]633;B
+PS>CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="Name"; value="Select-Object"
+>> ParameterBinding(Get-Help): name="Online"; value="False"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+
+NAME
+    Select-Object
+
+SYNTAX
+    Select-Object [[-Property] <Object[]>] [-InputObject <psobject>]
+    [-ExcludeProperty <string[]>] [-ExpandProperty <string>] [-Unique] [-Last <int>]
+    [-First <int>] [-Skip <int>] [-Wait]  [<CommonParameters>]
+
+    Select-Object [[-Property] <Object[]>] [-InputObject <psobject>]
+    [-ExcludeProperty <string[]>] [-ExpandProperty <string>] [-Unique] [-SkipLast
+    <int>]  [<CommonParameters>]
+
+    Select-Object [-InputObject <psobject>] [-Unique] [-Wait] [-Index <int[]>]
+    [<CommonParameters>]
+
+
+ALIASES
+    select
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is
+    displaying only partial help.
+        -- To download and install Help files for the module that includes this
+    cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help
+    Select-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113387.
+
+
+
