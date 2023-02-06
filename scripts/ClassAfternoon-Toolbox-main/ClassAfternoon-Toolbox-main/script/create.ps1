@@ -1,24 +1,67 @@
-#--init
-$global:RootPath = split-path -parent $MyInvocation.MyCommand.Definition
-$CreateCSV = Import-Csv -Path "$RootPath\create.csv"
-Start-Transcript -Path "$RootPath\Create_localtime_$(Get-Date -Format "MMddyyyyHHmm").txt" | Out-Null
-$json = Get-Content "$RootPath\config.json" -Raw | ConvertFrom-Json 
-Write-Output "`n`n------------------BEGIN-------------------------" "$(Get-Date -Format "HH:mm")[Log]: Starting init"
-#--transform
-Write-Output "$(Get-Date -Format "HH:mm")[Log]: Transforming data"
-$PurposeItem = $CreateCSV | Select-Object -ExpandProperty Purpose; $ArrayMembersItem = ($CreateCSV | select -ExpandProperty Members) -split (','); $item = $CreateCSV | select -ExpandProperty Name
-$TrimedItem = ($item.TrimEnd()).TrimStart() #removed whitespaces
-$NoCharsItem = $TrimedItem  -replace '[\W]', '' #removed special char
-$LowerCasedItem = $NoCharsItem.ToLower() #convert to lowercasing
-$AppendedItem = $json.AliasPrefix + $LowerCasedItem #append prefix
-#--assembly
-Write-Output "$(Get-Date -Format "HH:mm")[Log]: Assembling output"
-$AssembledObj = [PSCustomObject]@{
-    Name = $NoCharsItem; DisplayName  = $json.DisplayNamePrefix + $NoCharsItem; PrimarySmtpAddress  = $AppendedItem + "@" +$json.DomainName; Description = "`n Created at: $env:COMPUTERNAME" + ` "`n Created by: $env:UserName" + ` "`n Created on: ($(Get-Date))" + ` "`n`n=========`n" + $PurposeItem}
-#--output
-Write-Output "`n------------------OUTPUT-------------------------"
-Write-Host "`n`n Name:" -foregroundcolor Cyan; $AssembledObj.Name
-Write-Host "`n`n DisplayName:" -foregroundcolor Cyan; $AssembledObj.DisplayName
-Write-Host "`n`n PrimarySmtpAddress:" -foregroundcolor Cyan; $AssembledObj.PrimarySmtpAddress
-Write-Host "`n`n Description:" -foregroundcolor Cyan; $AssembledObj.Description
-Write-Host "`n`n Members:" -foregroundcolor Cyan; $ArrayMembersItem
+function CreateDL {
+    
+    try {
+        #--init
+        $counter = 0 
+   
+        function CheckCreateCSV {
+            $global:CreateCSV = Import-Csv -Path "$RootPath\create.csv"
+            if ($($CreateCSV.Name.Count) -gt 0) {
+                
+            }else{
+                Write-Host "`n------------------OUTPUT($counter)-------------------------"
+                Write-Host "$(Get-Date -Format "HH:mm")[Log]: CSV is empty (~_^)" -foregroundcolor Yellow
+    
+                #popup method 2
+                Write-Host "$(Get-Date -Format "HH:mm")[Debug]: Attempting to update [create.csv]"
+                $UpdateCSVResult = [System.Windows.MessageBox]::Show("Empty CSV. Do you want to update [create.csv] file?","$($json.ToolName) $($json.ToolVersion)",$YesNoButton,$QButton)
+    
+                If($UpdateCSVResult -eq "Yes")
+                {
+                    Invoke-Item "$RootPath\create.csv"
+                    Start-Sleep -s 15
+                    Write-Host "`n$(Get-Date -Format "HH:mm")[Debug]: Checking again [create.csv]"
+                    [System.Windows.MessageBox]::Show("Checking again [create.csv]","$($json.ToolName) $($json.ToolVersion)",$OKButton,$WarningIcon)
+                    CheckCreateCSV
+                }else{
+                    [System.Windows.MessageBox]::Show("Goodbye!.","$($json.ToolName) $($json.ToolVersion)",$OKButton,$WarningIcon)
+                }
+       
+            }
+        }
+        
+        Write-Host "$(Get-Date -Format "HH:mm")[Log]: Initialization success"
+        CheckCreateCSV
+        foreach($c in $CreateCSV){
+            #--transform
+            Write-Host "`n$(Get-Date -Format "HH:mm")[Log]: Transforming data"
+            $NoCharsItem = $(($($c.Name).TrimEnd()).TrimStart())  -replace '[\W]', '' #remove whitespace and special chars
+            #--assembly
+            Write-Host "$(Get-Date -Format "HH:mm")[Log]: Assembling output"
+            $AssembledObj = [PSCustomObject]@{
+                Name = $NoCharsItem
+                DisplayName  = $json.DisplayNamePrefix + $NoCharsItem
+                PrimarySmtpAddress  = $($json.AliasPrefix + $($NoCharsItem.ToLower())) + "@" + $json.DomainName #join and convert to lowercases
+                Description = "`n Created at: " + $env:COMPUTERNAME + "`n Created by: " + $env:USERNAME + "`n Created on: "  + ($(Get-Date)) + "`n`n=========`n" + $c.Purpose
+                Members = ($c.Members) -split (',') #turm members to array
+            }
+            #--output
+            $counter++
+            Write-Host "`n------------------OUTPUT($counter)-------------------------"
+            foreach ($currentItemName in $(@("Name","DisplayName","PrimarySmtpAddress","Description","Members")) ) {
+                Write-Host "`n`n $($currentItemName):" -foregroundcolor Cyan
+                Write-Host "$($AssembledObj.$($currentItemName))"
+                
+            }
+            if ($($AssembledObj.Members).length -gt 0) {
+                
+            }else{
+                Write-Host "No members found" -foregroundcolor Yellow
+            }
+        }
+        
+    }
+    catch {
+        Get-Kill -Mode "Hard"
+    }
+}
